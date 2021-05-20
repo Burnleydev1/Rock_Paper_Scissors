@@ -1,4 +1,5 @@
 #start
+#Code for rock paper scissors
 
 import random
 
@@ -19,7 +20,6 @@ def choice():
         choice()
     return user_choice
 
-#print(choice())
 
 def computer_turn():
     comp_choice = random.randint(1,3)
@@ -30,7 +30,6 @@ def computer_turn():
     if comp_choice == 3:
         comp_choice ="s"
     return comp_choice
-#print(computer_turn())
 
 while True:
     print("")
